@@ -6,10 +6,10 @@ using CreateDynamicTextBoxes_CS;
 
 namespace CreateDynamicTextBoxes
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        DataOperations dataOperations = new DataOperations(".\\SQLEXPRESS");
-        public Form1()
+        readonly DataOperations dataOperations = new DataOperations(".\\SQLEXPRESS");
+        public MainForm()
         {
             InitializeComponent();
         }

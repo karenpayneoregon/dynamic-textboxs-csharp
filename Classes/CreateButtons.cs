@@ -20,7 +20,7 @@ namespace CreateDynamicTextBoxes.Classes
         /// <returns></returns>
         public List<Button> Buttons { get; set; }
         /// <summary>
-        /// base name of buttone e.g. btn, cmd etc.
+        /// base name of button e.g. btn, cmd etc.
         /// </summary>
         /// <returns></returns>
         public string ButtonBaseName { get; set; }
